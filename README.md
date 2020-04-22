@@ -2,6 +2,8 @@
 
 **Yappapoo is an Fashion Ecommerce Website for Senior Citizens**
 
+**View with Theme** - [click here](https://thewolfcommander.github.io/yappapoo-teamTanay-project-1/)
+
 ## Main Idea
 
 The main idea behind this project is to provide a one and only fashion store for the senior citizens who likes to be updated with the fashion trends.
@@ -76,12 +78,12 @@ I am a pre-final year undergraduate from India and have about 2 years of Web Dev
 
 #### My Social media handles:
 
-[LinkedIn](https://linkedin.com/in/iammanojtyagi/)
-[Facebook]()
-[Instagram](https://instagram.com/the.monu.tyagi) - Personal Account
-[Instagram](https://instagram.com/thewolfcommander.me/) - Professional Account
-[Website](http://www.thewolfcommander.me/)
-[Medium](https://medium.com/@thewolfcommander/)
-[My Company](https://www.rightbros.co)
-[mr.mtsup@gmail.com](mailto:mr.mtsup@gmail.com)
-[thewolfcommander.me@gmail.com](mailto:thewolfcommander.me@gmail.com)
+- [LinkedIn](https://linkedin.com/in/iammanojtyagi/)
+- [Facebook]()
+- [Instagram](https://instagram.com/the.monu.tyagi) - Personal Account
+- [Instagram](https://instagram.com/thewolfcommander.me/) - Professional Account
+- [Website](http://www.thewolfcommander.me/)
+- [Medium](https://medium.com/@thewolfcommander/)
+- [My Company](https://www.rightbros.co)
+- [mr.mtsup@gmail.com](mailto:mr.mtsup@gmail.com)
+- [thewolfcommander.me@gmail.com](mailto:thewolfcommander.me@gmail.com)
