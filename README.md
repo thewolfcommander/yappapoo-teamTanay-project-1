@@ -1,5 +1,7 @@
 <img src="https://github.com/thewolfcommander/yappapoo-teamTanay-project-1/blob/master/assets/logo/logo.png?raw=true" width="100%">
 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 **Yappapoo is an Fashion Ecommerce Website for Senior Citizens**
 
 **View with Theme** - [click here](https://thewolfcommander.github.io/yappapoo-teamTanay-project-1/)
