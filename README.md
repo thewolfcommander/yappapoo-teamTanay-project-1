@@ -78,7 +78,7 @@ I am a pre-final year undergraduate from India and have about 2 years of Web Dev
 
 #### My Social media handles:
 
-- [LinkedIn](https://linkedin.com/in/iammanojtyagi/)
+- @fa-facebook [LinkedIn](https://linkedin.com/in/iammanojtyagi/)
 - [Facebook]()
 - [Instagram](https://instagram.com/the.monu.tyagi) - Personal Account
 - [Instagram](https://instagram.com/thewolfcommander.me/) - Professional Account
