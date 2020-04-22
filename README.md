@@ -1,4 +1,4 @@
-<img src="https://github.com/thewolfcommander/yappapoo-teamTanay-project-1/blob/master/assets/logo/logo.png" width="100%">
+<img src="https://github.com/thewolfcommander/yappapoo-teamTanay-project-1/blob/master/assets/logo/logo.png?raw=true" width="100%">
 
 **Yappapoo is an Fashion Ecommerce Website for Senior Citizens**
 
@@ -78,12 +78,12 @@ I am a pre-final year undergraduate from India and have about 2 years of Web Dev
 
 #### My Social media handles:
 
-- @fa-facebook [LinkedIn](https://linkedin.com/in/iammanojtyagi/)
-- [Facebook]()
-- [Instagram](https://instagram.com/the.monu.tyagi) - Personal Account
-- [Instagram](https://instagram.com/thewolfcommander.me/) - Professional Account
-- [Website](http://www.thewolfcommander.me/)
-- [Medium](https://medium.com/@thewolfcommander/)
-- [My Company](https://www.rightbros.co)
-- [mr.mtsup@gmail.com](mailto:mr.mtsup@gmail.com)
-- [thewolfcommander.me@gmail.com](mailto:thewolfcommander.me@gmail.com)
+- [<i class="fa fa-linkedin" style="font-size: 32px; color: #C33764;"></i>](https://linkedin.com/in/iammanojtyagi/)
+- [<i class="fa fa-facebook-square" style="font-size: 32px; color: #C33764;"></i>]()
+- [<i class="fa fa-instagram" style="font-size: 32px; color: #C33764;"></i>](https://instagram.com/the.monu.tyagi) - Personal Account
+- [<i class="fa fa-instagram" style="font-size: 32px; color: #C33764;"></i>](https://instagram.com/thewolfcommander.me/) - Professional Account
+- [<i class="fa fa-globe" style="font-size: 32px; color: #C33764;"></i>](http://www.thewolfcommander.me/)
+- [<i class="fa fa-pencil" style="font-size: 32px; color: #C33764;"></i>](https://medium.com/@thewolfcommander/)
+- [<i class="fa fa-building" style="font-size: 32px; color: #C33764;"></i>](https://www.rightbros.co)
+- <i class="fa fa-envelope" style="font-size: 32px; color: #C33764;"></i> - [mr.mtsup@gmail.com](mailto:mr.mtsup@gmail.com)
+- <i class="fa fa-envelope-open" style="font-size: 32px; color: #C33764;"></i> - [thewolfcommander.me@gmail.com](mailto:thewolfcommander.me@gmail.com)
