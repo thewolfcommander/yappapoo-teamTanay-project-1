@@ -220,13 +220,18 @@ html {
 
 /* Items Carousel Starts Here */
 
+.row {
+    margin: 0;
+    padding: 0;
+}
+
 .container-fluid {
     padding: 0;
 }
 
 .items-list {
     min-height: 100vh;
-    background: var(--primary);
+    background: var(--secondary);
 }
 
 .items-list__title {
@@ -256,7 +261,7 @@ html {
 }
 
 .items-list__card {
-    border: 2px solid var(--primary);
+    border: 2px solid var(--secondary);
     position: relative;
     box-shadow: 0 2px 4px rgba(0,0,0,0.15);
 }
