@@ -25,7 +25,7 @@ SECRET_KEY = 't=7h(1n=w&r!xzlwvntb6kzu7-xx9h!@n2+fqygef4mo0n497e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     # 'allauth.socialaccount.providers.google',
     # 'allauth.socialaccount.providers.microsoft',
     # 'allauth.socialaccount.providers.twitter',
+    'corsheaders',
+    'rest_framework',
 
     # My Sites
     'accounts',
@@ -56,6 +58,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -160,6 +163,9 @@ SOCIALACCOUNT_PROVIDERS = {
     }
 }
 """
+
+# CORS Settings
+CORS_ORIGIN_ALLOW_ALL = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
