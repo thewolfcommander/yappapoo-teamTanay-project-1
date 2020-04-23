@@ -45,7 +45,7 @@ class Seller(models.Model):
     postal = models.CharField(max_length=10, null=True, blank=True)
 
     def __str__(self):
-        return "{} - {}".format(str(self.id), self.user.full_name)
+        return "{} - {}".format(str(self.id), self.company_name)
 
     
 class Product(CommonInfo):
@@ -56,6 +56,7 @@ class Product(CommonInfo):
         ('male', 'Male'),
         ('female', 'Female'),
     ]
+    product_category = models.ForeignKey(Category, on_delete=models.CASCADE, default=1, verbose_name="product_category")
     gross_price = models.DecimalField(default=0.00, max_digits=100, decimal_places=2)
     discount_price = models.DecimalField(default=0.00, max_digits=100, decimal_places=2)
     gender = models.CharField(max_length=20, choices=GENDER_CHOICES, default='male')

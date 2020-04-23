@@ -48,6 +48,8 @@ INSTALLED_APPS = [
     # 'allauth.socialaccount.providers.microsoft',
     # 'allauth.socialaccount.providers.twitter',
     'corsheaders',
+    'import_export',
+    'crispy_forms',
     'rest_framework',
 
     # My Sites

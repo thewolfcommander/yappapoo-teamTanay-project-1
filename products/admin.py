@@ -1,4 +1,5 @@
 from django.contrib import admin
+from import_export.admin import ImportExportModelAdmin
 
 from .models import *
 
@@ -28,7 +29,7 @@ class ProductReviewInline(admin.TabularInline):
 
 
 @admin.register(Category)
-class CategoryAdmin(admin.ModelAdmin):
+class CategoryAdmin(ImportExportModelAdmin):
     """
     Admin Configuration for Category Model
     """
@@ -38,7 +39,7 @@ class CategoryAdmin(admin.ModelAdmin):
 
 
 @admin.register(Seller)
-class SellerAdmin(admin.ModelAdmin):
+class SellerAdmin(ImportExportModelAdmin):
     """
     Admin Configuration for Sellers
     """
@@ -48,7 +49,7 @@ class SellerAdmin(admin.ModelAdmin):
 
 
 @admin.register(Product)
-class ProductAdmin(admin.ModelAdmin):
+class ProductAdmin(ImportExportModelAdmin):
     """
     Admin Configuration for Products
     """

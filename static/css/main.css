@@ -270,7 +270,7 @@ html {
 }
 
 .items-single {
-    /* padding: 10px; */
+    padding: 5px 1px;
 }
 
 .items-list__card {
@@ -280,7 +280,8 @@ html {
 }
 
 .items-list__card img {
-    min-height: 250px;
+    min-height: 230px!important;
+    max-height: 280px!important;
 }
 
 .items-list__overlay--left {
@@ -307,7 +308,7 @@ html {
 
 .item-card__overlay--bottom {
     position: absolute;
-    top: 75%;
+    bottom: 2%;
     right: 0;
     background: rgba(0, 0, 0, 0.67);
     left: 0;

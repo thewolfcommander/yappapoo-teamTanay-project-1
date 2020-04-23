@@ -53,124 +53,32 @@
 
     <!-- Items List Starts Here -->
 
+    {% if categories %}
     <div class="container-fluid items-list">
         <div class="items-list__title">
-            <h1 class="display-3 y-text-secondary cursive-text" id="itemsList">Just Arrived</h1>
+            <h1 class="display-3 y-text-secondary cursive-text" id="itemsList">Awesome Categories</h1>
         </div>
 
         <div class="items-list__content">
             <div class="row">
+                {% for item in categories %}
                 <div class="col-md-2 col-lg-2 col-sm-6 col-6 items-single">
                     <div class="card items-list__card rounded-0 animated bounceIn">
-                        <img src="https://images.pexels.com/photos/2065195/pexels-photo-2065195.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top rounded-0" alt="...">
+                        <img src="{% if item.image %}{{ item.image }}{% else %}https://images.pexels.com/photos/2065195/pexels-photo-2065195.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500{% endif %}" class="card-img-top rounded-0" alt="{{ item.name }}" style="overflow: hidden;">
                         <i class="fa fa-heart items-list__overlay--left card-icon"></i>
                         <i class="fa fa-shopping-cart items-list__overlay--right card-icon"></i>
 
                         <div class="item-card__overlay--bottom">
-                            <h3 class="y-text-secondary text-center">This is Name of Dress</h3>
+                            <h3 class="y-text-secondary text-center">{{ item.name }}</h3>
                             <p class="text-center item__price-tag--cut y-text-white"><strike>999</strike> <span class="item__price-tag text-danger">256</span></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-lg-2 col-sm-6 col-6 items-single">
-                    <div class="card items-list__card rounded-0 animated bounceIn delay-1">
-                        <img src="https://images.pexels.com/photos/999515/pexels-photo-999515.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top rounded-0" alt="...">
-                        <i class="fa fa-heart items-list__overlay--left card-icon"></i>
-                        <i class="fa fa-shopping-cart items-list__overlay--right card-icon"></i>
-
-                        <div class="item-card__overlay--bottom">
-                            <h3 class="y-text-secondary text-center">This is Name of Dress</h3>
-                            <p class="text-center item__price-tag--cut y-text-white"><strike>999</strike> <span class="item__price-tag text-danger">256</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-lg-2 col-sm-6 col-6 items-single">
-                    <div class="card items-list__card rounded-0 animated bounceIn delay-2">
-                        <img src="https://images.pexels.com/photos/2065195/pexels-photo-2065195.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top rounded-0" alt="...">
-                        <i class="fa fa-heart items-list__overlay--left card-icon"></i>
-                        <i class="fa fa-shopping-cart items-list__overlay--right card-icon"></i>
-
-                        <div class="item-card__overlay--bottom">
-                            <h3 class="y-text-secondary text-center">This is Name of Dress</h3>
-                            <p class="text-center item__price-tag--cut y-text-white"><strike>999</strike> <span class="item__price-tag text-danger">256</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-lg-2 col-sm-6 col-6 items-single">
-                    <div class="card items-list__card rounded-0  animated bounceIn delay-3">
-                        <img src="https://images.pexels.com/photos/1886694/pexels-photo-1886694.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top rounded-0" alt="...">
-                        <i class="fa fa-heart items-list__overlay--left card-icon"></i>
-                        <i class="fa fa-shopping-cart items-list__overlay--right card-icon"></i>
-
-                        <div class="item-card__overlay--bottom">
-                            <h3 class="y-text-secondary text-center">This is Name of Dress</h3>
-                            <p class="text-center item__price-tag--cut y-text-white"><strike>999</strike> <span class="item__price-tag text-danger">256</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-lg-2 col-sm-6 col-6 items-single">
-                    <div class="card items-list__card rounded-0  animated bounceIn delay-4">
-                        <img src="https://images.pexels.com/photos/1375736/pexels-photo-1375736.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top rounded-0" alt="...">
-                        <i class="fa fa-heart items-list__overlay--left card-icon"></i>
-                        <i class="fa fa-shopping-cart items-list__overlay--right card-icon"></i>
-
-                        <div class="item-card__overlay--bottom">
-                            <h3 class="y-text-secondary text-center">This is Name of Dress</h3>
-                            <p class="text-center item__price-tag--cut y-text-white"><strike>999</strike> <span class="item__price-tag text-danger">256</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-lg-2 col-sm-6 col-6 items-single">
-                    <div class="card items-list__card rounded-0 delay-5 animated bounceIn">
-                        <img src="https://images.pexels.com/photos/2065195/pexels-photo-2065195.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top rounded-0" alt="...">
-                        <i class="fa fa-heart items-list__overlay--left card-icon"></i>
-                        <i class="fa fa-shopping-cart items-list__overlay--right card-icon"></i>
-
-                        <div class="item-card__overlay--bottom">
-                            <h3 class="y-text-secondary text-center">This is Name of Dress</h3>
-                            <p class="text-center item__price-tag--cut y-text-white"><strike>999</strike> <span class="item__price-tag text-danger">256</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-lg-2 col-sm-6 col-6 items-single">
-                    <div class="card items-list__card rounded-0 delay-6 animated bounceIn">
-                        <img src="https://images.pexels.com/photos/884979/pexels-photo-884979.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top rounded-0" alt="...">
-                        <i class="fa fa-heart items-list__overlay--left card-icon"></i>
-                        <i class="fa fa-shopping-cart items-list__overlay--right card-icon"></i>
-
-                        <div class="item-card__overlay--bottom">
-                            <h3 class="y-text-secondary text-center">This is Name of Dress</h3>
-                            <p class="text-center item__price-tag--cut y-text-white"><strike>999</strike> <span class="item__price-tag text-danger">256</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-lg-2 col-sm-6 col-6 items-single">
-                    <div class="card items-list__card rounded-0 animated bounceIn delay-7">
-                        <img src="https://images.pexels.com/photos/1020052/pexels-photo-1020052.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top rounded-0" alt="...">
-                        <i class="fa fa-heart items-list__overlay--left card-icon"></i>
-                        <i class="fa fa-shopping-cart items-list__overlay--right card-icon"></i>
-
-                        <div class="item-card__overlay--bottom">
-                            <h3 class="y-text-secondary text-center">This is Name of Dress</h3>
-                            <p class="text-center item__price-tag--cut y-text-white"><strike>999</strike> <span class="item__price-tag text-danger">256</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-lg-2 col-sm-6 col-6 items-single">
-                    <div class="card items-list__card rounded-0 animated bounceIn delay-8">
-                        <img src="https://images.pexels.com/photos/769659/pexels-photo-769659.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top rounded-0" alt="...">
-                        <i class="fa fa-heart items-list__overlay--left card-icon"></i>
-                        <i class="fa fa-shopping-cart items-list__overlay--right card-icon"></i>
-
-                        <div class="item-card__overlay--bottom">
-                            <h3 class="y-text-secondary text-center">This is Name of Dress</h3>
-                            <p class="text-center item__price-tag--cut y-text-white"><strike>999</strike> <span class="item__price-tag text-danger">256</span></p>
-                        </div>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
+    {% endif %}
 
     <!-- Items List Ends here -->
 
