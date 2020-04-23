@@ -263,7 +263,7 @@ html {
 .items-list__card {
     border: 2px solid var(--secondary);
     position: relative;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .items-list__card img {
@@ -285,7 +285,7 @@ html {
 .card-icon {
     font-size: 26px;
     color: var(--secondary);
-    text-shadow: 2px 3px 5px rgba(0,0,0,0.15);
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.15);
 }
 
 .wishlist-icon--active {
@@ -296,10 +296,11 @@ html {
     position: absolute;
     top: 75%;
     right: 0;
-    background: rgba(0,0,0,0.67);
+    background: rgba(0, 0, 0, 0.67);
     left: 0;
     padding: 10px 7px;
 }
+
 .item-card__overlay--bottom h3 {
     font-size: var(--normal);
     font-family: var(--font-normal);
